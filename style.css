@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Condiment", serif;
+    font-size: larger;
+    background-color: black;
+    color: white;
+  }
+  
+  header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+ /* Default styles for navigation links */
+nav ul li a {
+    text-decoration: none;
+    color: rgb(252, 251, 251); /* Default text color */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+  }
+  
+  /* Change text color when hovered over */
+  nav ul li a:hover {
+    color: red; /* New color on hover */
+  }
+  
+  
+  nav ul li a.active {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 850px;
+    height: 850px;
+    border-radius: 0%;
+  }
+  /* Styles for about page */
+.about-page {
+    background-color: #eb0e0e; /* Red */
+  }
+  /* Text style for about page */
+.about-page {
+  font-family: "Bungee Tint", serif;
+    font-size: larger;
+    background-color: black;
+}
